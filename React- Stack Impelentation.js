@@ -25,7 +25,8 @@ class Stack {
 var stack = new Stack();
 
 console.log(stack.isEmpty());   
-console.log(stack.push(1));     
-console.log(stack.peek());      
+console.log(stack.push(10));          
 console.log(stack.push("AG"));
 console.log(stack.peek());   
+console.log(stack.pop()); 
+console.log(stack.peek());  
